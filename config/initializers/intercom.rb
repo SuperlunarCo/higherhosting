@@ -1,0 +1,1 @@
+config.api_secret = Rails.application.secrets.intercom_secure_mode_secret_key

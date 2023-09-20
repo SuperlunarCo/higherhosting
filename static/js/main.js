@@ -16373,7 +16373,7 @@
                         "Stripe integration error: wrong product ID was used. Please take a careful look at our guide and copy proper product ID: https://help.unicornplatform.com/en/article/stripe-checkout-integration-1ji5u1/"
                       ),
                       console.error(
-                        "A message for the website owner: there has been a mistake in setting up your Stripe integration. Please contact the Unicorn Platform support crew."
+                        "A message for the website owner: there has been a mistake in setting up your Stripe integration. Please contact the Higher Hosting Support Team."
                       )),
                   "price" === o
                     ? ((s = t.attr("data-stripe-mode")),

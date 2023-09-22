@@ -18,12 +18,17 @@
       name: user.name, // Full name
       email: user.email, // Email address
       created_at: user.createdAt // Signup date as a Unix timestamp
+      user_id: user.id, // User ID
+      user_hash: "INSERT_HMAC_VALUE_HERE" // HMAC using SHA-256
     };
   </script>
   <script>
-    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/izkmewda'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/izkmewda';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
   </script>
   <!---- End of Intercom Script--->
+
+  <!---- Fonts---->
+
   <style>
     <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:700|Bai+Jamjuree:400,700&display=swap" rel="stylesheet" />.custom_fonts .custom-google-fonts-enabled * {
       font-family: 'Bai Jamjuree', Helvetica, sans-serif;
@@ -39,9 +44,9 @@
     }
   </style>
 
-  <!---- End Intercom ---->
+  <!---- End Fonts ---->
 
-  <!---- ---->
+
 
   <link rel="icon" type="image/png" href="https://r2r.higher.hosting/static/img/icon.ico" sizes="16x16" />
   <meta property="og:type" content="website">
@@ -60,7 +65,7 @@
   <link href="https://higher.hosting/" rel="canonical">
   <meta name="twitter:url" content="https://higher.hosting/">
   <meta property="og:url" content="https://higher.hosting/">
-  <!---- End Intercom ---->
+
 
   <!--Graffano-Faro-->
   <script>
@@ -1136,105 +1141,37 @@
 
                   <td class="pricing-05__card_button_box  bg-main ">
                     <div class="pricing-05__card_button">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                       <a data-stripe-product-id="" data-stripe-mode="payment" data-successful-payment-url=""
                         data-cancel-payment-url="" class="button button--black-bg "
                         href="https://shop.higher.hosting/index.php?rp=/store/cpanel-hosting/complete"
                         target="_blank"><span class="button__text">Add to cart</span></a>
-
-
-
-
-
                     </div>
                   </td>
-
-
-
                   <td class="pricing-05__card_button_box ">
                     <div class="pricing-05__card_button">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                       <a data-stripe-product-id="" data-stripe-mode="payment" data-successful-payment-url=""
                         data-cancel-payment-url="" class="button button--black-outline "
                         href="https://shop.higher.hosting/index.php?rp=/store/cpanel-hosting/unlimited"
                         target="_blank"><span class="button__text">Add to cart</span></a>
-
-
-
-
-
                     </div>
                   </td>
-
-
                 </tr>
               </tbody>
             </table>
           </div>
-
           <div class="pricing-05__cards_mobile pricing-05__cards_container_mobile  pricing-05__cards_mobile--3">
-
-
-
-
-
             <table class="pricing-05__table">
-
               <thead>
                 <tr>
                   <td class="pricing-05__card_box ">
                     <div class="pricing-05__card">
                       <div class="pricing-05__card">
                         <div class="pricing-05__card_img_box">
-
-
-
-
-
-
                           <img loading="lazy" src="https://r2r.higher.hosting/static/img/twemoji/26a1.svg"
                             class="pricing-05__card_img" />
-
-
-
-
                         </div>
-
                         <h3 class="pricing-05__card_title">Essential</h3>
-
-
                         <div class="pricing-05__card_info">Perfect for beginners</div>
-
                         <div class="pricing-05__price_box">
                           <div class="pricing-05__price_item js-tab-content  state-active-tab "
                             data-index="monthly-price-1" data-group="my-pricing-pricing-05-354481">
@@ -1254,9 +1191,7 @@
                   </td>
                 </tr>
               </thead>
-
               <tbody>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
 

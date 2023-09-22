@@ -3,5 +3,11 @@
         "**/*.code-search": false,
         "**/bower_components": false,
         "**/node_modules": false
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false
     }
 }

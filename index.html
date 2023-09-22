@@ -3,13 +3,14 @@
   class="style-blue-1  custom-colors-enabled  custom-accent-color-bright  custom_fonts comps live_website unicorn-platform-website"
   lang="en">
 
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="alternate" href="https://higher.hosting/" hreflang="en" />
   <link rel="stylesheet" href="https://r2r.higher.hosting/static/css/main.css">
   <script src="https://r2r.higher.hosting/static/js/main.js" defer></script>
+
+  <!---- Intercom ---->
   <script>
     window.intercomSettings = {
       api_base: "https://api-iam.intercom.io",
@@ -19,15 +20,12 @@
       created_at: user.createdAt // Signup date as a Unix timestamp
     };
   </script>
-
   <script>
-    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/izkmewda'
     (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/izkmewda'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
   </script>
-  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:700|Bai+Jamjuree:400,700&display=swap"
-    rel="stylesheet" />
+  <!---- End of Intercom Script--->
   <style>
-    .custom_fonts .custom-google-fonts-enabled * {
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:700|Bai+Jamjuree:400,700&display=swap" rel="stylesheet" />.custom_fonts .custom-google-fonts-enabled * {
       font-family: 'Bai Jamjuree', Helvetica, sans-serif;
     }
 
@@ -41,34 +39,28 @@
     }
   </style>
 
+  <!---- End Intercom ---->
+
+  <!---- ---->
 
   <link rel="icon" type="image/png" href="https://r2r.higher.hosting/static/img/icon.ico" sizes="16x16" />
-
   <meta property="og:type" content="website">
-
   <title>Home Page</title>
   <meta property="og:title" content="Home Page" />
   <meta name="twitter:title" content="Home Page" />
-
-
   <meta name="description"
     content="Get top-notch web hosting with Higher Hosting. Our reliable servers guarantee optimal website performance. Choose from tailored plans and dedicated support. Take your online presence to new heights. Sign up now for exceptional hosting benefits.">
   <meta property="og:description"
     content="Get top-notch web hosting with Higher Hosting. Our reliable servers guarantee optimal website performance. Choose from tailored plans and dedicated support. Take your online presence to new heights. Sign up now for exceptional hosting benefits." />
   <meta name="twitter:description"
     content="Get top-notch web hosting with Higher Hosting. Our reliable servers guarantee optimal website performance. Choose from tailored plans and dedicated support. Take your online presence to new heights. Sign up now for exceptional hosting benefits." />
-
-
   <meta property="og:image" content="https://r2r.higher.hosting/static/img/image.png" />
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://r2r.higher.hosting/static/img/image.png">
-
-
   <link href="https://higher.hosting/" rel="canonical">
   <meta name="twitter:url" content="https://higher.hosting/">
   <meta property="og:url" content="https://higher.hosting/">
-
+  <!---- End Intercom ---->
 
   <!--Graffano-Faro-->
   <script>
@@ -91,8 +83,6 @@
         }
 
         );
-
-
         // Load instrumentations at the onLoad event of the web-SDK and after the above configuration.
         // This is important because we need to ensure that the Web-SDK has been loaded and initialized before we add further instruments!
         var webTracingScript = document.createElement("script");
@@ -190,209 +180,115 @@
     }
   </style>
   <!--Navbar styling-->
-
-
-
-
 </head>
 
 <body class="custom-google-fonts-enabled comps" id="102769-206278">
-
-
-
-
-
-
-
-
-
   <nav class="js-nav nav-02  nav-02--sticky  nav-02--sticky--white  ">
     <div class="container container--large">
       <div class="nav-02__box">
         <div class="nav-02__logo"><a class="nav-02__link" href="/" target="_self">
-
-
             <img class="nav-02__logo_img" height="73" alt="Logo" src="https://r2r.higher.hosting/static/img/logo.png"
               srcset="https://r2r.higher.hosting/static/img/logo.png?width=211&amp;height=73 211w,https://r2r.higher.hosting/static/img/logo.png?width=422&amp;height=146 422w,https://r2r.higher.hosting/static/img/logo.png?width=633&amp;height=219 633w,"
               sizes="211px" />
-
-
           </a></div>
         <div class="nav-02__links js-menu">
           <div class="nav-02__list_wrapper  ">
             <ul class="nav-02__list nav-02__list--desktop">
-
-
-
-
-
-
-
-
               <li class="nav-02__item">
-
                 <a class="button   button--black-outline  button--empty " href="/" target="_self"><span
                     class="button__text">Home</span>
                 </a>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">Hosting</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/web-hosting" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Web Hosting</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/reseller-hosting" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Reseller Hosting</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/hp#pricing-03-811491" target="_self"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Open Source Projects</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <!---<li class="nav-02__item">
-
                 <a class="button   button--black-outline  button--empty " href="/domains" target="_blank"><span
                     class="button__text">Domains</span>
                 </a>
-
               </li>--->
 
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">Premium Email</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/google-workspace" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Google Workspace</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/microsoft-exchange" target="_blank"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Microsoft Exchange</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/zoho-workspace" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Zoho Workspace - Coming Soon!</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">About</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/faq" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">FAQ</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="https://support.higher.hosting/en" target="_blank"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Help Center </span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/contact-us" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Contact us</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/blog" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Blog</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
-
                 <div class="buttons-set">
                   <ul class="buttons-set__list">
                     <li class="buttons-set__item"><a data-stripe-product-id="" data-stripe-mode="payment"
@@ -405,182 +301,103 @@
                           Up</span></a></li>
                   </ul>
                 </div>
-
               </li>
             </ul>
             <ul class="nav-02__list nav-02__list--mobile">
-
-
-
-
-
-
-
-
               <li class="nav-02__item">
-
                 <a class="button   button--black-outline  button--empty " href="/" target="_self"><span
                     class="button__text">Home</span>
                 </a>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">Hosting</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/web-hosting" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Web Hosting</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/reseller-hosting" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Reseller Hosting</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/hp#pricing-03-811491" target="_self"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Open Source Projects</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <a class="button   button--black-outline  button--empty " href="/domains" target="_blank"><span
                     class="button__text">Domains</span>
                 </a>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">Premium Email</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/google-workspace" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Google Workspace</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/microsoft-exchange" target="_blank"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Microsoft Exchange</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/zoho-workspace" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Zoho Workspace - Coming Soon!</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
                 <button
                   class="button   button--black-outline  button--empty  button--has-dropdown button--has-arrow js-toggle-dropdown "><span
                     class="button__text">About</span>
                   <span class="dropdown">
                     <ul class="dropdown__list">
-
-
                       <li class="dropdown__item">
                         <a href="/faq" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">FAQ</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="https://support.higher.hosting/en" target="_blank"
                           class="button button--empty button--black-outline">
                           <span class="button__text">Help Center </span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/contact-us" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Contact us</span>
                         </a>
                       </li>
-
-
-
                       <li class="dropdown__item">
                         <a href="/blog" target="_blank" class="button button--empty button--black-outline">
                           <span class="button__text">Blog</span>
                         </a>
                       </li>
-
-
                     </ul>
                   </span>
                 </button>
-
               </li>
-
-
-
-
-
               <li class="nav-02__item">
-
-
                 <div class="buttons-set">
                   <ul class="buttons-set__list">
                     <li class="buttons-set__item"><a data-stripe-product-id="" data-stripe-mode="payment"
@@ -593,12 +410,9 @@
                           Up</span></a></li>
                   </ul>
                 </div>
-
               </li>
             </ul>
           </div>
-
-
           <div class="nav-02__burger">
             <button class="burger burger--black js-open-menu" type="button">
               <div class="burger__box">
@@ -606,92 +420,39 @@
               </div>
             </button>
           </div>
-
-
         </div>
       </div>
     </div>
   </nav>
-
-
-
-
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    bg-white-color  " id="other-01-241161">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 19;padding-top:0px;padding-bottom:0px;">
-
-
-
       <section>
-
-
-
-
-
       </section>
-
     </div>
   </div>
 
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    page-component__bg_image_box--dark-bg  bg-mature-color  "
     id="cta_button-01-258841">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 18;padding-top:20px;padding-bottom:20px;">
-
       <div class="cta_button-01">
-
-
-
-
-
         <div class="container container--small">
           <div class="title-box title-box--center">
-
-
             <h2 class="heading  text-white">Premium hosting for everyone</h2>
-
-
-
             <div class="title-box__text content_box  text-white">
               <p>Looking for high performance and secure hosting for your website?</p>
               <p>Our hosting plans offer dedicated resources at the price of shared hosting.</p>
             </div>
-
           </div>
         </div>
-
         <div class="container container--small">
           <div class="cta_button-01__button_box">
-
-
-
-
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -1097,7 +858,7 @@
                         <div class="pricing-05__price_item js-tab-content  state-active-tab "
                           data-index="monthly-price-1" data-group="my-pricing-pricing-05-354481">
                           <div class="pricing-05__price_symbol">$</div>
-                          <div class="pricing-05__price">3.99</div>
+                          <div class="pricing-05__price">$9.99</div>
                           <div class="pricing-05__period">/month</div>
                         </div>
                         <div class="pricing-05__price_item js-tab-content " data-index="yearly-price-1"
@@ -1140,7 +901,7 @@
                         <div class="pricing-05__price_item js-tab-content  state-active-tab "
                           data-index="monthly-price-1" data-group="my-pricing-pricing-05-354481">
                           <div class="pricing-05__price_symbol">$</div>
-                          <div class="pricing-05__price">7.99</div>
+                          <div class="pricing-05__price">$19.99</div>
                           <div class="pricing-05__period">/month</div>
                         </div>
                         <div class="pricing-05__price_item js-tab-content " data-index="yearly-price-1"
@@ -1183,7 +944,7 @@
                         <div class="pricing-05__price_item js-tab-content  state-active-tab "
                           data-index="monthly-price-1" data-group="my-pricing-pricing-05-354481">
                           <div class="pricing-05__price_symbol">$</div>
-                          <div class="pricing-05__price">14.99</div>
+                          <div class="pricing-05__price">$29.99</div>
                         </div>
                         <div class="pricing-05__price_item js-tab-content " data-index="yearly-price-1"
                           data-group="my-pricing-pricing-05-354481">
@@ -1724,7 +1485,7 @@
 
 
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
 
                     </div>
@@ -1740,7 +1501,7 @@
 
 
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
 
                     </div>
@@ -1756,7 +1517,7 @@
 
 
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
 
                     </div>
@@ -2288,7 +2049,7 @@
 
 
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
 
                     </div>
@@ -2662,145 +2423,70 @@
                         <span class="pricing-05__header-text-container">
                           Malware Detection
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row  pricing-05__info--accent bg-main text-white ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           DDoS Protection
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         2+ TBPS
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row  pricing-05__info--accent bg-main text-white ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Renewable Energy
                         </span>
-
                       </div>
-
                     </div>
-
-
-                    <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
+                    <div class="pricing-05__info__box  pricing-05__info__box--center">
                       <span class="pricing-05__item_text">
                         100%
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
-
                 <tr>
                   <td class="pricing-05__card_button_box  bg-main ">
                     <div class="pricing-05__card_button">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                       <a data-stripe-product-id="" data-stripe-mode="payment" data-successful-payment-url=""
                         data-cancel-payment-url="" class="button button--black-bg " href="#" target="_blank"><span
                           class="button__text">Add to cart</span></a>
-
-
-
-
-
                     </div>
                   </td>
                 </tr>
-
               </tbody>
             </table>
-
-
-
-
-
             <table class="pricing-05__table">
-
               <thead>
                 <tr>
                   <td class="pricing-05__card_box ">
                     <div class="pricing-05__card">
                       <div class="pricing-05__card">
                         <div class="pricing-05__card_img_box">
-
-
-
-
-
-
                           <img loading="lazy" src="https://r2r.higher.hosting/static/img/twemoji/1f680.svg"
                             class="pricing-05__card_img" />
-
-
-
-
                         </div>
-
                         <h3 class="pricing-05__card_title">Ultimate</h3>
-
-
                         <div class="pricing-05__card_info">For portfolios</div>
-
                         <div class="pricing-05__price_box">
                           <div class="pricing-05__price_item js-tab-content  state-active-tab "
                             data-index="monthly-price-1" data-group="my-pricing-pricing-05-354481">
@@ -2834,332 +2520,187 @@
 
 
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Unlimited SSD
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           LVE Resources
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         1 CPU, 2GB RAM &amp; 25 EP
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Daily Backups
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Included
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Website Builder
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Yes - Site Pro
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Email Accounts
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Unlimited
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Free SSL Certificates
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Yes - by LetsEncrypt
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Free Migration
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Automated
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           WordPress Toolkit
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         Included
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Malware Detection
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
-                        Yes - Immunity AV
+                        Yes - Immunity AV+
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           DDoS Protection
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         2+ TBPS
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
                 <tr class="pricing-05__row ">
                   <td class="pricing-05__info">
-
                     <div class="pricing-05__header">
                       <div class="pricing-05__header_text js-hover-to-show-sibling">
                         <span class="pricing-05__header-text-container">
                           Renewable Energy
                         </span>
-
                       </div>
-
                     </div>
-
-
                     <div class="pricing-05__info__box  pricing-05__info__box--center   ">
-
-
-
                       <span class="pricing-05__item_text">
                         100%
                       </span>
-
                     </div>
                   </td>
-
                 </tr>
-
-
                 <tr>
                   <td class="pricing-05__card_button_box ">
                     <div class="pricing-05__card_button">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                       <a data-stripe-product-id="" data-stripe-mode="payment" data-successful-payment-url=""
                         data-cancel-payment-url="" class="button button--black-outline " href="#" target="_blank"><span
                           class="button__text">Add to cart</span></a>
-
-
-
-
-
                     </div>
                   </td>
                 </tr>
-
               </tbody>
             </table>
-
-
-
           </div>
-
         </div>
         <div class="container">
           <div class="bottom_cta">
-
-
             <div class="buttons-set">
               <ul class="buttons-set__list">
                 <li class="buttons-set__item"><a data-stripe-product-id="" data-stripe-mode="payment"
@@ -3175,37 +2716,16 @@
                         </svg></span></span></a></li>
               </ul>
             </div>
-
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
-
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    bg-white-color  " id="other-01-127131">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 13;padding-top:20px;padding-bottom:20px;">
-
-
-
       <section>
-
-
-
-
         <!-- TrustBox widget - Micro Review Count -->
         <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad"
           data-businessunit-id="64ae0c4b74c26d6dc19cb564" data-style-height="24px" data-style-width="100%"
@@ -3214,37 +2734,17 @@
         </div>
         <!-- End TrustBox widget -->
       </section>
-
     </div>
   </div>
-
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    bg-light_gray-color  " id="pricing-03-811491">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 12;padding-top:50px;padding-bottom:70px;">
-
-
-
-
-
-
       <div class="pricing-03">
         <div class="pricing-03__container container">
           <div class="pricing-03__wrapper">
             <div class="pricing-03__info">
-
               <h2 class="heading ">Open-Source Projects, Charities, Students...</h2>
-
               <div class="pricing-03__info_text ">Open Source Projects, Charities, Students and others. Whether you're
                 building a website for a non-profit organization, a student project, or an open-source software, we've
                 got you covered. For anyone looking to build a website but the cost of hosting is an obstacle, we're
@@ -3258,8 +2758,6 @@
                 src="https://r2r.higher.hosting/static/img/twemoji/2600.svg" alt="Emoji sun SVG" />
             </div>
             <div class="pricing-03__price__wrapper">
-
-
               <div class="pricing-03__price">
                 <div class="pricing-03__price_top">
                   <div class="pricing-03__price_holder">
@@ -3273,224 +2771,87 @@
                       class="heading js-tab-content  state-active-tab ">$1 /month
                     </h2>
                   </div>
-
-
                   <div class="pricing-03__card_text">Open Source Projects, Charities, Students and others</div>
-
-
                 </div>
                 <div class="pricing-03__price_bottom">
-
                   <ul class="pricing-03__benefits_list">
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">100GB SSD Web Space</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">100GB/Month Bandwidth</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">10 x 10GB Mailboxes</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">Free Wildcard SSL Certificates
                       </div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">5 × MySQL Database</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">Malware Scanning</div>
-
-
                       <div class="pricing-03__hover js-content-to-show">Fair-usage policy applies</div>
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">DDoS Protection</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">Website Builder</div>
-
-
                     </li>
-
-
-
                     <li class="pricing-03__benefit">
-
                       <img loading="lazy" src="https://r2r.higher.hosting/static/img/icons/checked--acid.svg" alt="✓"
                         class="pricing-03__benefit_icon" />
-
-
                       <div class="pricing-03__benefit_text js-hover-to-show-sibling">Can host 5 domains/websites</div>
-
-
                       <div class="pricing-03__hover js-content-to-show">Domains not included</div>
-
                     </li>
-
-
-
-
                   </ul>
-
-
                   <div class="pricing-03__button">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <a data-stripe-product-id="" data-stripe-mode="payment" data-successful-payment-url=""
                       data-cancel-payment-url="" class="button button--white-bg "
                       href="https://client.ultra.hosting/order-hosting" target="_blank"><span class="button__text">Sign
                         Up via Ultra Hosting*</span></a>
-
-
-
-
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
-
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    page-component__bg_image_box--dark-bg  bg-mature-color  "
     id="text-06-405221">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 11;padding-top:10px;padding-bottom: 1px;">
-
-
-
-
-
-
       <section>
         <div class="text--06">
-
-
-
-
           <div class="container container--small">
             <ul class="text--06__list">
-
               <li class="text--06__item">
-
                 <a class="text--06__link bg-medium-hover" href="https://higher.hosting/terms-of-service"
                   target="_blank">
                   <div class="text--06__img">
-
-
-
-
-
                     <img loading="lazy" src="https://r2r.higher.hosting/static/img/twemoji/1f4a1.svg" class="" />
-
-
-
                   </div>
                   <div class="text--06__text">
                     <h2 class=" text-white">*Fair-usage policy applies</h2>
@@ -3500,13 +2861,9 @@
                     </div>
                   </div>
                 </a>
-
               </li>
-
             </ul>
             <div class="bottom_cta">
-
-
               <div class="buttons-set">
                 <ul class="buttons-set__list">
                   <li class="buttons-set__item"><a data-stripe-product-id="" data-stripe-mode="payment"
@@ -3522,55 +2879,24 @@
                           </svg></span></span></a></li>
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
+
       </section>
-
-
     </div>
   </div>
-
-
-
-
-
-
-
-
   <div class="page-component__bg_image_box    bg-white-color  " id="other-01-669481">
-
     <div class="page-component__bg_overlay_box " style="">
-
     </div>
-
     <div class="page-component__wrapper" style="z-index: 10;padding-top:20px;padding-bottom:20px;">
-
-
-
       <section>
-
-
-
-
         <div class="review-widget_net" data-uuid="9a1e939c-f65b-4ce2-9e93-685f59bc8c6b" data-template="10"
           data-lang="en" data-theme="light"></div>
         <script src="https://grwapi.net/widget.min.js"></script>
       </section>
-
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
   <div class="popup-component js-custom-popup page-component__bg_image_box    bg-white-color  " id="popup-01-58267">
     <button class="popup-component__close-button js-close-custom-popup-button">
       <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3580,34 +2906,16 @@
       </svg>
     </button>
     <div class="popup-component__bg_image_box">
-
-
       <div class="page-component__bg_overlay_box " style="">
-
       </div>
-
       <div class="page-component__wrapper" style="z-index: 10;padding-top: 1px;padding-bottom: 1px;">
-
-
-
-
-
-
-
-
         <div class="popup-01 graphics-HTML default-graphics-image">
           <div class="container container--premid popup-01__container">
             <div class="popup-01__left">
               <div class="popup-01__content">
-
                 <h2 class="heading popup-01__heading">Get in Touch</h2>
-
-
                 <p class="content_box popup-01__text">Our excellent customer support team is ready to help.</p>
-
                 <div class="popup-01__cta-box">
-
-
                   <div class="buttons-set">
                     <ul class="buttons-set__list">
                       <li class="buttons-set__item"><a data-stripe-product-id="" data-stripe-mode="payment"
@@ -3615,286 +2923,116 @@
                           href="/" target="_blank"><span class="button__text">Contact us</span></a></li>
                     </ul>
                   </div>
-
                 </div>
               </div>
             </div>
-
-
             <div class="popup-01__right">
               <div class="popup-01__HTML graphics-HTML__code-snippet">
                 <a href="https://shop.higher.hosting/register.php">Click here to register with us</a>
               </div>
             </div>
-
-
           </div>
         </div>
-
-
-
-
-
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="bg-white-color">
     <footer class="footer-04 " id="footer" style="">
       <div class="footer-04__top">
         <div class="container">
           <div class="footer-04__top_wrapper ">
-
-
-
-
             <div class="footer-04__col">
-
               <a class="footer-04__logo_link" href="/" target="_self">
-
-
-
-
                 <img loading="lazy" alt="Logo" class="footer-04__logo" height="58"
                   src="https://r2r.higher.hosting/static/img/logo.png"
                   srcset="https://r2r.higher.hosting/static/img/logo.png?width=168&amp;height=58 168w,https://r2r.higher.hosting/static/img/logo.png?width=336&amp;height=116 336w,https://r2r.higher.hosting/static/img/logo.png?width=504&amp;height=174 504w,"
-                  sizes="168px" />
-
-
-
-              </a>
-
-
+                  sizes="168px" /></a>
               <div class="footer-04__info content_box">All rights reserved.</div>
-
             </div>
-
-
-
-
-
             <div class="footer-04__col">
               <h3 class="footer-04__title">Products</h3>
               <ul class="footer-04__list">
-
-
                 <li class="footer-04__item">
                   <a href="/web-hosting" target="_blank" class="footer-04__link">
                     Web Hosting
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/reseller-hosting" target="_blank" class="footer-04__link">
                     Reseller Hosting
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/google-workspace" target="_blank" class="footer-04__link">
                     Google Workspace
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/microsoft-exchange" target="_blank" class="footer-04__link">
                     Microsoft Exchange Online
                   </a>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
                 <li class="footer-04__item">
                   <a href="/zoho-workspace" target="_blank" class="footer-04__link">
                     Zoho Workspace
                   </a>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
             </div>
-
-
-
             <div class="footer-04__col">
               <h3 class="footer-04__title">Support</h3>
               <ul class="footer-04__list">
-
-
-
-
-
-
-
-
-
-
                 <li class="footer-04__item">
                   <a href="/faq" target="_blank" class="footer-04__link">
                     FAQ
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="https://support.higher.hosting/en" target="_blank" class="footer-04__link">
                     Help Center
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/contact-us" target="_blank" class="footer-04__link">
                     Contact us
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/contact-us" target="_blank" class="footer-04__link">
                     About
                   </a>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
             </div>
-
-
-
             <div class="footer-04__col">
               <h3 class="footer-04__title">Legal</h3>
               <ul class="footer-04__list">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <li class="footer-04__item">
                   <a href="/terms-of-service" target="_blank" class="footer-04__link">
                     Terms of Service
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="https://www.iubenda.com/privacy-policy/46463443" target="_blank" class="footer-04__link">
                     Privacy Policy
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="https://www.iubenda.com/privacy-policy/46463443/cookie-policy" target="_blank"
                     class="footer-04__link">
                     Cookies Policy
                   </a>
                 </li>
-
-
-
                 <li class="footer-04__item">
                   <a href="/fair-usage" target="_blank" class="footer-04__link">
                     Fair Usage
                   </a>
                 </li>
-
-
-
-
-
-
               </ul>
             </div>
-
-
-
             <div class="footer-04__col">
-
               <h3 class="footer-04__title">Follow us</h3>
-
               <div class="footer-04__social_box">
-
-
                 <div class="social-buttons  social-buttons--left ">
                   <ul class="social-buttons__list">
                     <li class="social-buttons__item"><a class="social-buttons__link social-buttons__link--facebook"
@@ -3911,31 +3049,14 @@
                           src="https://r2r.higher.hosting/static/img/icons/social/color/instagram.svg" /></a></li>
                   </ul>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
-
-
-
-
-
       </div>
     </footer>
   </div>
-
-
-
-
-
-
-
-
-
   <div class="popup-component__mask js-close-custom-popup-button js-custom-popup-mask"></div>
-
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="pswp__bg"></div>
     <div class="pswp__scroll-wrap">
@@ -3970,7 +3091,9 @@
       </div>
     </div>
   </div>
+  <!-- End Footer -->
 
+  <!-- Styling -->
   <style>
     .custom-colors-enabled .fill-main {
       fill: #DCF0FA
@@ -4187,9 +3310,9 @@
       font-size: 14px;
     }
   </style>
+  <!-- Style  -->
 
-
-
+  <!-- Cookies Disclaimer -->
   <div id="42383"
     class="js-widget simple-cookie-widget  simple-cookie-widget--bottom_left simple-cookie-widget--midnight">
     <div class="simple-cookie-widget__wrapper">
@@ -4211,28 +3334,25 @@
       </div>
     </div>
   </div>
+  <!-- End Cookies Disclaimer -->
 
-
-
+  <!-- Language -->
   <div id="4119" class="lang-widget js-lang-widget lang-widget--bottom_right lang-widget--white">
     <div class="lang-widget__wrapper">
-      <ul class="lang-widget__list">
-
-
-
-      </ul>
+      <ul class="lang-widget__list"></ul>
       <div class="lang-widget__current">
-        <span class="lang-widget__title">
-          English 🇺🇸🇬🇧
-        </span>
+        <span class="lang-widget__title">English 🇺🇸🇬🇧</span>
       </div>
     </div>
   </div>
-
+  <!-- End Language -->
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHG2KLJZ" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHG2KLJZ" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
 </body>
 
